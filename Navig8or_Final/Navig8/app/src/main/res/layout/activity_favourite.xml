@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Favourite">
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="Enter Street Address"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textColorHint="@color/colorPrimaryVariant"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter city or monument"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textColorHint="@color/colorPrimaryVariant"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_margin="10dp"
+        android:hint="Enter country"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textColorHint="@color/colorPrimaryVariant"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country"
+        android:text="Submit" />
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listview"
+        android:layout_margin="10dp"
+        android:text="Favourites" />
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listview"
+        android:layout_below="@+id/btnFav"
+        android:gravity="center"
+        android:text="Favourite Monuments and Cities:"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="48dp"
+        android:padding="10dp"
+        android:background="#25ffffff"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textColorHint="@color/colorPrimaryVariant" />
+
+
+</RelativeLayout>

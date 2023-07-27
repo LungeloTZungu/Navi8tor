@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449400268050",
+    "project_id": "navig8-7af63",
+    "storage_bucket": "navig8-7af63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449400268050:android:551cb27ffc7ac690cf3fcb",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.navig8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449400268050-b2bjlks4s78rcodthrlqj9bob40i6l80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCdId6hHeuwv8mRZkeasT4xxwTfRzv_sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449400268050-b2bjlks4s78rcodthrlqj9bob40i6l80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
